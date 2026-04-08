@@ -1,0 +1,68 @@
+body {
+margin: 0;
+font-family: Arial;
+scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+background: #222;
+color: white;
+text-align: center;
+padding: 15px;
+}
+
+nav a {
+color: white;
+margin: 10px;
+text-decoration: none;
+}
+
+/* Sections */
+section {
+padding: 40px;
+text-align: center;
+}
+
+/* Profile */
+.profile {
+width: 150px;
+border-radius: 50%;
+}
+
+/* Cards */
+.card {
+display: inline-block;
+width: 250px;
+padding: 15px;
+margin: 10px;
+background: #f4f4f4;
+border-radius: 10px;
+transition: 0.3s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+/* Gallery */
+.gallery img {
+width: 150px;
+margin: 10px;
+border-radius: 10px;
+}
+
+/* Dark Mode */
+.dark {
+background: #121212;
+color: white;
+}
+
+.dark .card {
+background: #1e1e1e;
+}
+
+button {
+padding: 5px 10px;
+cursor: pointer;
+}
